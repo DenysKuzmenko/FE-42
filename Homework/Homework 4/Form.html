@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+	<h1 class="heading">Форма</h1>
+		<form id="Form" class="forma" method="Post" action="contact.php">
+			<fieldset>
+
+				<legend>Введите личные данные</legend>
+				<div>
+					<p><label><input type="name" id="name" name="name" class="input" maxlength="40" required placeholder="Ваше имя"></label></p>
+				
+					<p><label><input type="phone" id="phone" name="phone" class="input" maxlength="20" required placeholder="Ваш номер телефона"></label></p>
+				
+					<p><label><input type="email" id="email" name="email" class="input" required placeholder="Ваш email	"></label></p>
+				
+					<p><input type="date" id="date" name="date" class="date" required placeholder="Дата"></p>
+				
+					<p>Ваш пол:</p>
+						<label>Мужчина<input type="radio" name="gender" value="man"></label>
+						<label>Женщина<input type="radio" name="gender" value="woman"></label>
+
+					<p>
+						<p>Количество детей:</p>
+						<select name="number">
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>	
+					</p>	
+				</div>		
+				
+			</fieldset>
+
+				<div><p><textarea id="textarea" name="textarea" class="textarea" cols="50" rows="6" placeholder="Введите Ваше сообщение"></textarea></p></div>
+				
+				<p><input type="file" name="file" multiple accept="image/*"></p>
+
+				<p><input type="submit" name="submit" class="submit" value="Отправить"></p>
+				
+					
+		
+	
+</body>
+</html>
