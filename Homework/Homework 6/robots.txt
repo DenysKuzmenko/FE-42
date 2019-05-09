@@ -1,0 +1,8 @@
+User-agent:*
+Disallow:/no-index/Contacts.html
+
+User-agent: Google
+
+Allow:/no-bots/Company
+
+Sitemap:sitemap.xml
