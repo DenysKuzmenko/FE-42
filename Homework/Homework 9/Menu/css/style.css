@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+ background-image: url("../img/fon.jpg");
+}
+header {
+	margin: 50px;
+}
+
+.nav> ul{
+ display: flex;
+ justify-content: center;
+ list-style: none;
+}
+
+.nav > ul li a{
+ display: block; 
+ background-color:#26D8A9E2;
+ padding: 15px 80px 15px 80px;
+ font-size: 14px;
+ color: #0026FFFF;
+ text-decoration: none;
+ text-transform:uppercase;
+
+}
+.nav li a:hover{
+ background-color: #0094FFFF;
+ color: #ffffff;
+}
+
+.nav li ul{
+ position: absolute;
+ width: 150px;
+ display: none;
+ list-style: none;
+}
+
+.nav li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #38B3C6FF;
+}
+
+.nav li:hover > ul{
+ display: block;
+}
