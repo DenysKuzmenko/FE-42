@@ -1,0 +1,61 @@
+.box{
+	height: 150px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.gradient{
+	background: linear-gradient(90deg, #C0C0C0FF 20%, #606060FF 50%, #424242FF 70%, #000000FF 90%);
+ 	background: -webkit-linear-gradient(90deg, #C0C0C0FF 20%, #606060FF 50%, #424242FF 70%, #000000FF 90%);
+ 	background: -o-linear-gradient(90deg, #C0C0C0FF 20%, #606060FF 50%, #424242FF 70%, #000000FF 90%);
+ 	background: -moz-linear-gradient(90deg, #C0C0C0FF 20%, #606060FF 50%, #424242FF 70%, #000000FF 90%);
+ 	background: -ms-linear-gradient(90deg, #C0C0C0FF 20%, #606060FF 50%, #424242FF 70%, #000000FF 90%);
+ }
+
+.gradient:hover{
+	background: linear-gradient(90deg, #FFD800FF 20%, #FF6A00FF 40%, #FF0000FF 60%, #FF006EFF 70%, #B200FFFF 100%);
+	background: -webkit-linear-gradient(90deg, #FFD800FF 20%, #FF6A00FF 40%, #FF0000FF 60%, #FF006EFF 70%, #B200FFFF 100%);
+	background: -o-linear-gradient(90deg, #FFD800FF 20%, #FF6A00FF 40%, #FF0000FF 60%, #FF006EFF 70%, #B200FFFF 100%);
+	background: -moz-linear-gradient(90deg, #FFD800FF 20%, #FF6A00FF 40%, #FF0000FF 60%, #FF006EFF 70%, #B200FFFF 100%);
+	background: -ms-linear-gradient(90deg, #FFD800FF 20%, #FF6A00FF 40%, #FF0000FF 60%, #FF006EFF 70%, #B200FFFF 100%);
+
+}
+.htmlcss{
+	width: 400px;
+	height: 350px;
+	overflow:hidden;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.htmlcss img{
+	max-width: 100%;
+    height: auto;
+    width: auto;
+    transition: all 2s ease-in;
+}
+
+.htmlcss img:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+}
+
+.csshtml{
+	width: 400px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.csshtml img{
+	max-width: 100%;
+    height: auto;
+    width: auto;
+    transition: 1s ;
+}
+
+.csshtml img:hover{
+	border:6px solid #00FFFF80;
+}
