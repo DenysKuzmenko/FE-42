@@ -1,0 +1,70 @@
+*{
+margin:0;
+padding:0;
+}
+
+.spin{
+		animation: spin 10s linear 0s infinite;
+		background: #00E047FF;
+		height: 60px;
+		width: 60px;
+		position: absolute;
+		margin: 30px;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	@keyframes spin{
+		0%{
+			transform: rotate(0deg);
+			left: 0;
+			top: 0;
+			}
+		25%{
+			transform: rotate(90deg);
+			background: #00FF90FF;
+			left: 1250px;
+			top:0;
+		}
+		50%{
+			transform: rotate(180deg);
+			background:#00FF21FF;
+			left: 1250px;
+			top: 500px;
+		}
+		75%
+		{
+			transform: rotate(270deg);
+			background:#B6FF00FF;
+			left: 0;
+			top: 500px;
+		}
+
+		100%{
+			transform: rotate(360deg);
+			background: #FFFA00FF;
+			left:0;
+			top: 0;
+		}
+		}
+
+	.char{
+		background-image: url(../img/char.jpg);
+	
+		margin: 200px auto;
+		width: 90px;
+		height: 100px;
+		animation: run 1s steps(8) infinite;
+
+	}
+
+	@keyframes run{
+	0%{
+		background-position:0 0;
+	}
+	100%{
+		background-position: -500px 0;
+	}
+	}
+
+		
