@@ -50,7 +50,7 @@ padding:0;
 
 	.char{
 		background-image: url(../img/char.jpg);
-	
+		
 		margin: 200px auto;
 		width: 90px;
 		height: 100px;
@@ -63,7 +63,7 @@ padding:0;
 		background-position:0 0;
 	}
 	100%{
-		background-position: -500px 0;
+		background-position: -524px 0;
 	}
 	}
 
