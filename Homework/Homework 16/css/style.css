@@ -8,12 +8,12 @@ body,html{
 	position: relative;
 }
 
-.for_page{
+.far_page{
 	position: relative;
 	min-height:100%;
 }
 .page{
-	padding-bottom: 0;
+	padding-bottom: 267px;
 }
 
 body{
@@ -206,9 +206,6 @@ header .border-header{
 
 	background: url(../images/baner2-fon.png);
 	background-position: center;
-	
-
-
 }
 .ban2{
 	text-align: center;
@@ -234,15 +231,12 @@ header .border-header{
 
 /*galery*/
 
-.galery-home{
-	padding: 130px;
-}
-
 .galery-home h2{
 	font-family: 'vidaloka_regular';
 	font-size: 36px;
 	color: #333333;
 	text-align: center;
+	padding-top: 130px;
 	padding-bottom: 34px;
 }
 
@@ -296,6 +290,7 @@ header .border-header{
 	font-size: 36px;
 	color: #333333;
 	text-align: center;
+	padding-top: 130px;
 	padding-bottom: 34px;
 }
 .cs-title p{
@@ -534,6 +529,7 @@ text-align: center;
 	padding-top:36px;
 	padding-bottom: 46px;
 	background:url(../images/footer-fon.png); 
+	position: absolute;
 }
 .flex-footer{
 	display: flex;
