@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 25</title>
+</head>
+<script>
+	try{
+	
+
+	var age = +prompt("Сколько Вам лет?");
+	if (Age>=18){
+		function foo(){
+			alert('Добро пожаловать');
+		}
+	}else{
+		function foo(){
+			alert('До 18 лет нельзя')
+		}
+	}
+	foo();
+	
+	}catch(e){
+		alert('Извините, сбой программы');
+		}
+</script>
+
+<body>
+
+<input type="button" value="Открыть окно " onClick="winop()" /><br />
+<input type="button" value="Проверить окно" onClick="checkwin()" /><br />
+
+<div id="mes"></div>
+
+
+<iframe width="100%" height="315" name="PHP'шник" src="https://www.youtube.com/embed/mSBWxc73qLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" name="Javascript" src="https://www.youtube.com/embed/-2WiaSvOj78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" name="Anti Social"src="https://www.youtube.com/embed/sOso4oPJRfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+<script>
+
+var newwin;
+function winop(){
+	newwin=window.open('https://www.google.com.ua/?hl=ru');
+	}
+function checkwin(){
+	if(!newwin)
+	document.getElementById('mes').innerHTML ='Окно открыто';
+	else
+	if(newwin.closed)
+	document.getElementById('mes').innerHTML ='Окно закрыто';
+	else
+	document.getElementById('mes').innerHTML ='Окно в данный момент открыто ';
+	}
+
+
+	document.write(frames[0].name+ '<br />');
+	document.write(frames[1].name+ '<br />');
+	document.write(frames[2].name);
+
+
+	
+</script>
+</html>

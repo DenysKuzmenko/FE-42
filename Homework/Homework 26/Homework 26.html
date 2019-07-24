@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 26</title>
+</head>
+<body onload="start()">
+    <p id="text1">Время</p>
+    <input type="button" value="Stop" onClick="stop()" />
+	<input type="button" value="Start" onClick="start()" />
+
+<script>
+ function time(){
+     var dat = new Date();
+     var hour= dat.getHours();
+     var min= dat.getMinutes();
+     var sec = dat.getSeconds();
+     var tim=hour+':'+min+':'+sec;
+     document.getElementById('text1').innerHTML=tim;
+ }
+    function start(){
+        id=setInterval('time()', 1000);
+    }
+    function stop(){
+        clearInterval(id);
+    }
+
+
+    var newWin = window.open("about:blank", "example", "top=150, left=500, width=300 , height=300");
+    newWin.document.write("window.opener.document.body.innerHTML = '<p> Здесь может быть Ваша реклама </p>'");
+</script>
+
+
+</body>
+</html>
