@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+body,html{
+	height:100%;
+	position:relative;
+	}
+.for_page{
+	position:relative;
+	min-height:100%;
+	}
+.page{
+	padding-bottom: 240px;
+	}
+body{
+	 font-family: 'vidaloka_regular';
+	 font-size:14px;
+	 color:#000;
+	}
+
+.footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	padding-top:36px;
+	padding-bottom:46px;
+	background:url(../images/bg-footer.jpg) repeat;
+	}
+header{
+	padding-top:38px;
+	}
+/*menu*/
+.menu ul.wrapp-menu{
+	display:flex;
+	justify-content:space-around;
+	margin-top:20px;
+	}
+.menu ul.wrapp-menu li{
+	list-style:none;
+	
+	}
+.menu ul.wrapp-menu li a{
+	font-size:18px;
+	color:#000;
+	transition:0.3s;
+	background:transparent;
+	border-radius:5px;
+	padding: 9px 14px;
+	}
+.menu ul.wrapp-menu li.active-item a,
+.menu ul.wrapp-menu li a:hover{
+	background:#130e27;
+	padding: 9px 14px;
+	color:#fff;
+	border-radius:5px;
+	text-decoration:none;
+	}
+/*menu*/
+
+
+/*Pricing*/
+.pricing{
+	background: #efefef;
+}
+.cs-title h1{
+	padding-top: 65px;
+	padding-bottom: 60px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+.pricing-block{
+	background:#fff;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px 5px 0 0;
+}
+.pric-txt1 h2{
+	padding-top: 35px;
+	font-family: 'PT Serif';
+	font-size: 22px;
+}
+.pric-txt1 h3{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 60px;
+	color:#c62314;
+}
+.pric-txt2{
+	font-family: 'PT Serif';
+	font-size: 20px;
+	margin: 0 auto;
+}
+.pric-txt2 p{
+	margin: 0 0 8px 0;
+}
+.pric-txt3{
+	padding: 34px 60px 0 60px;
+}
+.pric-txt3 a:hover{
+	text-decoration: none;
+}
+.see-pric{
+	display: block;
+	font-family: 'Montserrat';
+	font-size:22px;
+	background:#130e27;
+	color: #fff;
+	padding: 17px;
+	border-radius: 5px;
+}
+.block2{
+	margin-top: 20px;
+}
+.pop{
+	font-family: 'PT Serif';
+	font-size: 22px;
+	width: 0;
+	height: 0;
+    border: 2em solid;
+    border-color: #c62314 transparent transparent #c62314;
+    border-radius: 5px 0 0 0;
+}
+.pop h3{
+	font-size: 16px;
+	margin-top: -15px;
+	margin-left: -38px;
+	transform: rotate(-45deg);
+}
+.bus{
+	margin-top: -108px;
+}
+.see-pric2{
+	background:#c62314;
+}
+
+
